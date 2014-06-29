@@ -1,15 +1,15 @@
 {
-	"name": "OVH API Debugger",
-	"manifest_version": 2,
-	"version": "0.0.1",
-	"description": "Console debugger for OVH API pages (Firebug like).",
-	"devtools_page": "src/background.html",
-	"background": {
-		"scripts": ["src/background.js"]
-	},
-	"permissions": [
-		"tabs",
-		"http://*/*",
-		"https://*/*"
-	]
+    "name": "OVH API Debugger",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "description": "Console debugger for OVH API pages (Firebug like).",
+    "devtools_page": "src/background.html",
+    "background": {
+        "scripts": ["src/background.js"]
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
 }
